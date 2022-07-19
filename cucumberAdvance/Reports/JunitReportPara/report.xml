@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="37.703">
+    <testcase classname="Test Orange HRM website" name="1 check User Role Column" time="19.78">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+When clicks on login page...................................................passed
+When user clicks on Go To Admin.............................................passed
+And user clicks on user management..........................................passed
+And user clicks on Users....................................................passed
+Then Verify User Role Column................................................passed
+Then Logout and Close Browsers..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Orange HRM website" name="2 check Employee Name Column" time="17.427">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username and password......................................passed
+When clicks on login page...................................................passed
+When user clicks on Go To Leave.............................................passed
+And user clicks on My Leave.................................................passed
+Then Verify Employee Name Column............................................passed
+Then Logout and Close Browser...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
